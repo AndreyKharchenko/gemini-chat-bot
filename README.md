@@ -1,2 +1,5 @@
-Backend: Python + FastAPI
-Frontend: TypeScript + Next.js
+# Backend
+Python + FastAPI
+
+# Frontend
+TypeScript + Next.js
