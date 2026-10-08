@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/widgets/prompt-form/PromptForm.module.css"],"sourcesContent":[".form {\n  display: flex;\n  flex-direction: column;\n  gap: 0.85rem;\n  padding: 1rem;\n  border-radius: 20px;\n  border: 1px solid rgba(94, 240, 255, 0.18);\n  background: linear-gradient(\n    180deg,\n    rgba(10, 22, 38, 0.92),\n    rgba(6, 14, 26, 0.96)\n  );\n  box-shadow:\n    inset 0 1px 0 rgba(255, 255, 255, 0.04),\n    0 16px 48px rgba(0, 0, 0, 0.35);\n}\n\n.footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 1rem;\n}\n\n.status {\n  min-height: 1.5rem;\n  display: flex;\n  align-items: center;\n}\n\n.hint {\n  font-family: var(--font-display);\n  font-size: 0.72rem;\n  letter-spacing: 0.12em;\n  text-transform: uppercase;\n  color: var(--text-muted);\n}\n\n@media (max-width: 640px) {\n  .footer {\n    flex-direction: column;\n    align-items: stretch;\n  }\n\n  .status {\n    justify-content: center;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAiBA;;;;;;;AAOA;;;;;;AAMA;;;;;;;;AAQA;EACE;;;;;EAKA"}}]
+}

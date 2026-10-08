@@ -1,0 +1,28 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--accent-cyan);
+}
+
+.ring {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid rgba(94, 240, 255, 0.2);
+  border-top-color: var(--accent-cyan);
+  animation: spin 0.8s linear infinite;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

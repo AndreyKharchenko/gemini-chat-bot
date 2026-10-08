@@ -1,0 +1,31 @@
+/* [project]/shared/ui/spinner/Spinner.module.css [app-client] (css) */
+.Spinner-module__dhtKnG__root {
+  color: var(--accent-cyan);
+  align-items: center;
+  gap: .75rem;
+  display: inline-flex;
+}
+
+.Spinner-module__dhtKnG__ring {
+  border: 2px solid #5ef0ff33;
+  border-top-color: var(--accent-cyan);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  animation: .8s linear infinite Spinner-module__dhtKnG__spin;
+}
+
+.Spinner-module__dhtKnG__label {
+  font-family: var(--font-display);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-size: .75rem;
+}
+
+@keyframes Spinner-module__dhtKnG__spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=shared_ui_spinner_Spinner_module_css_1igg3k2-ikub5._.single.css.map*/

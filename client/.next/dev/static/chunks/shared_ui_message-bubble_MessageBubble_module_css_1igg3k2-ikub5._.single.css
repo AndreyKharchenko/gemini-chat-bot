@@ -1,0 +1,80 @@
+/* [project]/shared/ui/message-bubble/MessageBubble.module.css [app-client] (css) */
+.MessageBubble-module__j_9mAq__bubble {
+  border: 1px solid #0000;
+  border-radius: 18px;
+  max-width: min(720px, 92%);
+  padding: .95rem 1.1rem;
+  animation: .35s both MessageBubble-module__j_9mAq__rise;
+}
+
+.MessageBubble-module__j_9mAq__meta {
+  margin-bottom: .45rem;
+}
+
+.MessageBubble-module__j_9mAq__role {
+  font-family: var(--font-display);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-size: .68rem;
+}
+
+.MessageBubble-module__j_9mAq__content {
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--text-primary);
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+.MessageBubble-module__j_9mAq__user {
+  background: linear-gradient(145deg, #3d7cff52, #143c7838);
+  border-color: #7ab4ff59;
+  align-self: flex-end;
+  box-shadow: 0 0 28px #3d7cff1f;
+}
+
+.MessageBubble-module__j_9mAq__user .MessageBubble-module__j_9mAq__role {
+  color: #a9c4ff;
+}
+
+.MessageBubble-module__j_9mAq__assistant {
+  background: linear-gradient(145deg, #0c1c2af2, #081422e6);
+  border-color: #5ef0ff47;
+  align-self: flex-start;
+  box-shadow: 0 0 28px #5ef0ff14;
+}
+
+.MessageBubble-module__j_9mAq__assistant .MessageBubble-module__j_9mAq__role {
+  color: var(--accent-cyan);
+}
+
+.MessageBubble-module__j_9mAq__system {
+  text-align: center;
+  background: #ff5a7814;
+  border-color: #ff5a7840;
+  align-self: center;
+  max-width: 100%;
+}
+
+.MessageBubble-module__j_9mAq__system .MessageBubble-module__j_9mAq__role {
+  color: #ff8aa0;
+}
+
+.MessageBubble-module__j_9mAq__system .MessageBubble-module__j_9mAq__content {
+  color: #ffc2cd;
+  font-size: .85rem;
+}
+
+@keyframes MessageBubble-module__j_9mAq__rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=shared_ui_message-bubble_MessageBubble_module_css_1igg3k2-ikub5._.single.css.map*/

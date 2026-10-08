@@ -1,0 +1,106 @@
+/* [project]/widgets/chat-header/ChatHeader.module.css [app-client] (css) */
+.ChatHeader-module__10x_Bq__header {
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  background: linear-gradient(120deg, #0a182aeb, #08101ee0), #060c16e6;
+  border: 1px solid #5ef0ff2e;
+  border-radius: 22px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.1rem 1.35rem;
+  display: flex;
+  box-shadow: inset 0 1px #ffffff0d, 0 18px 40px #00000047;
+}
+
+.ChatHeader-module__10x_Bq__brand {
+  align-items: center;
+  gap: .9rem;
+  display: flex;
+}
+
+.ChatHeader-module__10x_Bq__pulse {
+  background: var(--accent-cyan);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  animation: 2s ease-in-out infinite ChatHeader-module__10x_Bq__pulse;
+  box-shadow: 0 0 16px #5ef0ffcc;
+}
+
+.ChatHeader-module__10x_Bq__title {
+  font-family: var(--font-display);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  font-size: 1.15rem;
+}
+
+.ChatHeader-module__10x_Bq__subtitle {
+  color: var(--text-secondary);
+  margin-top: .2rem;
+  font-size: .8rem;
+}
+
+.ChatHeader-module__10x_Bq__meta {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .65rem;
+  display: flex;
+}
+
+.ChatHeader-module__10x_Bq__chip {
+  background: #ffffff08;
+  border: 1px solid #5ef0ff24;
+  border-radius: 12px;
+  flex-direction: column;
+  gap: .2rem;
+  min-width: 180px;
+  padding: .55rem .8rem;
+  display: flex;
+}
+
+.ChatHeader-module__10x_Bq__chipLabel {
+  font-family: var(--font-display);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-size: .62rem;
+}
+
+.ChatHeader-module__10x_Bq__chipValue {
+  font-family: var(--font-mono);
+  color: var(--accent-cyan);
+  word-break: break-all;
+  font-size: .78rem;
+}
+
+@keyframes ChatHeader-module__10x_Bq__pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: .55;
+    transform: scale(.85);
+  }
+}
+
+@media (max-width: 860px) {
+  .ChatHeader-module__10x_Bq__header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ChatHeader-module__10x_Bq__meta {
+    justify-content: stretch;
+  }
+
+  .ChatHeader-module__10x_Bq__chip {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+/*# sourceMappingURL=widgets_chat-header_ChatHeader_module_css_1igg3k2-ikub5._.single.css.map*/

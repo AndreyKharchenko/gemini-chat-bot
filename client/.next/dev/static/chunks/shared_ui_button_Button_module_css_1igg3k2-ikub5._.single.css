@@ -1,0 +1,52 @@
+/* [project]/shared/ui/button/Button.module.css [app-client] (css) */
+.Button-module__7yqGIG__button {
+  font-family: var(--font-display);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .85rem 1.4rem;
+  font-size: .85rem;
+  font-weight: 600;
+  transition: transform .2s, box-shadow .2s, opacity .2s, background .2s;
+  display: inline-flex;
+}
+
+.Button-module__7yqGIG__button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.Button-module__7yqGIG__primary {
+  color: #041018;
+  background: linear-gradient(135deg, #5ef0ff 0%, #3d7cff 100%);
+  box-shadow: 0 0 0 1px #5ef0ff59, 0 0 24px #3d7cff73;
+}
+
+.Button-module__7yqGIG__primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 0 0 1px #5ef0ff8c, 0 0 36px #5ef0ff59;
+}
+
+.Button-module__7yqGIG__primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.Button-module__7yqGIG__ghost {
+  color: var(--text-secondary);
+  background: #ffffff0a;
+  border: 1px solid #5ef0ff33;
+}
+
+.Button-module__7yqGIG__ghost:hover:not(:disabled) {
+  color: var(--text-primary);
+  background: #5ef0ff14;
+}
+
+/*# sourceMappingURL=shared_ui_button_Button_module_css_1igg3k2-ikub5._.single.css.map*/

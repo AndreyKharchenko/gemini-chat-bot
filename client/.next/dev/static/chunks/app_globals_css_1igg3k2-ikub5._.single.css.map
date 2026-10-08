@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":[":root {\n  --accent-cyan: #5ef0ff;\n  --accent-blue: #3d7cff;\n  --text-primary: #e8f4ff;\n  --text-secondary: #9bb4c9;\n  --text-muted: #6a8298;\n  --font-display: var(--font-orbitron), system-ui, sans-serif;\n  --font-body: var(--font-space-grotesk), system-ui, sans-serif;\n  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;\n}\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n}\n\nbody {\n  color: var(--text-primary);\n  background: #02060d;\n  font-family: var(--font-body);\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: var(--font-mono);\n}\n\nbutton,\ntextarea {\n  font: inherit;\n}\n\n::-webkit-scrollbar {\n  width: 10px;\n}\n\n::-webkit-scrollbar-track {\n  background: transparent;\n}\n\n::-webkit-scrollbar-thumb {\n  border-radius: 999px;\n  background: rgba(94, 240, 255, 0.25);\n  border: 2px solid transparent;\n  background-clip: padding-box;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA;;;;;;AAMA;;;;AAKA;;;;;;;;AAQA;;;;AAIA;;;;AAKA;;;;AAIA;;;;AAIA"}}]
+}
